@@ -1,0 +1,44 @@
+{
+  "id": "mythras-compendium",
+  "title": "Mythras Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "Armor",
+      "label": "Armor",
+      "path": "packs/Armor",
+      "type": "Item",
+      "system": "mythras",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Items",
+      "label": "Items",
+      "path": "packs/Items",
+      "type": "Item",
+      "system": "mythras",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "mythras",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
